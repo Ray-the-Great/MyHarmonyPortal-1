@@ -10,7 +10,7 @@ If you are not a authorized user please do not try to login. Our-Harmony-Portal 
 
 ## Acknowledgements
 
- - [Seconde Developer's github](https://github.com/Ray-the-Great)
+ - [Second Developer's github](https://github.com/Ray-the-Great)
 
 
 ## Authors
