@@ -17,7 +17,7 @@ function sus() {
     if (username === 'deez' && password === 'NUTZ!') {
 
       Cookies.set('Verifide', 'true', { expires: 1 })
-      window.open('sub/index.html', '_blank');
+      window.open('Sub/index.html', '_blank');
 
     } else {
       
