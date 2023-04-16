@@ -15,7 +15,7 @@ If you are not a authorized user please do not try to login. Our-Harmony-Portal 
 
 ## Authors
 
-- [Digital-S](https://github.com/DigitalSerpant/MyHarmonyPortal)
+- [Digital-S](https://github.com/DigitalSerpant)
 - [Ray-The-Great](https://github.com/Ray-the-Great)
 
 ## Usage/Examples
