@@ -61,6 +61,6 @@ window.addEventListener("beforeunload", function(event) {
 
 
 var myCookie = Cookies.get('Verifide');
-if(myCookie==='close'){
-  this.close();
-}
+//if(myCookie==='close'){
+//  this.close();
+//}
